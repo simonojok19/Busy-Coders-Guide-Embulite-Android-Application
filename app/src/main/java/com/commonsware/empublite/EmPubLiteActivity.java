@@ -3,6 +3,7 @@ package com.commonsware.empublite;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.StrictMode;
 import android.support.v4.view.ViewPager;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -22,6 +23,7 @@ public class EmPubLiteActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
+        setupStrictMode();
         pager = (ViewPager) findViewById(R.id.pager);
 
 
@@ -87,5 +89,18 @@ public class EmPubLiteActivity extends Activity {
     @Subscribe(threadMode = ThreadMode.MAIN)
     public void onBookLoaded(BookLoadedEvent event){
         setupPager(event.getBook());
+    }
+
+    private void setupStrictMode(){
+        StrictMode.ThreadPolicy.Builder builder
+                = new StrictMode.ThreadPolicy.Builder()
+                .detectAll()
+                .penaltyLog();
+
+        if (BuildConfig.DEBUG){
+            builder.penaltyFlashScreen();
+        }
+
+        StrictMode.setThreadPolicy(builder.build());
     }
 }
