@@ -68,14 +68,16 @@ public class EmPubLiteActivity extends Activity {
         EventBus.getDefault().register(this);
 
         if(adapter == null){
+//            Adapter has not be created, create one
             mfrag = (ModelFragment)getFragmentManager().findFragmentByTag(MODEL);
             if (mfrag == null){
+//                Model fragment has not yet created
                 mfrag = new ModelFragment();
-
                 getFragmentManager().beginTransaction()
                         .add(new ModelFragment(), MODEL).commit();
             }
             else if (mfrag.getBook() != null){
+//                model fragment load the page
                 setupPager(mfrag.getBook());
             }
         }

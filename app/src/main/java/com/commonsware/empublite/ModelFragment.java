@@ -37,6 +37,7 @@ public class ModelFragment extends Fragment {
     public void onAttach(Activity host) {
         super.onAttach(host);
         if(contents.get() == null){
+//            is there contents in AtomicReference no start thread to load
             new LoadThread(host).start();
         }
     }
