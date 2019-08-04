@@ -1,0 +1,10 @@
+#Sun Aug 04 09:23:06 EAT 2019
+path.2=classes.dex
+path.1=classes.dex
+path.0=classes.dex
+renamed.2=classes3.dex
+renamed.1=classes2.dex
+renamed.0=classes.dex
+base.2=/home/dev/AndroidStudioProjects/T5-Layout/EmPubLite/app/build/intermediates/transforms/dexMerger/debug/11
+base.1=/home/dev/AndroidStudioProjects/T5-Layout/EmPubLite/app/build/intermediates/transforms/dexMerger/debug/12
+base.0=/home/dev/AndroidStudioProjects/T5-Layout/EmPubLite/app/build/intermediates/transforms/dexMerger/debug/13

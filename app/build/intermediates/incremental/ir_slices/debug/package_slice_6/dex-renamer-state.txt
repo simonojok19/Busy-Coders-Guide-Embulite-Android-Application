@@ -1,0 +1,4 @@
+#Sun Aug 04 01:50:50 EAT 2019
+base.0=/home/dev/AndroidStudioProjects/T5-Layout/EmPubLite/app/build/intermediates/transforms/dexMerger/debug/6
+path.0=classes.dex
+renamed.0=classes.dex

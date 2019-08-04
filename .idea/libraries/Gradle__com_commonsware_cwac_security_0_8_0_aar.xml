@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Gradle: com.commonsware.cwac:security:0.8.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/security-0.8.0.aar/db43987ad6fb9e3ef3d5f491e90a197a/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/security-0.8.0.aar/db43987ad6fb9e3ef3d5f491e90a197a/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
