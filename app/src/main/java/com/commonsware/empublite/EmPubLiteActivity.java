@@ -2,6 +2,7 @@ package com.commonsware.empublite;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.os.StrictMode;
 import android.support.v4.view.ViewPager;
@@ -18,6 +19,9 @@ public class EmPubLiteActivity extends Activity {
     private ViewPager pager;
     private ContentAdapter adapter;
     private static final String MODEL = "model";
+    private static final String PREF_LAST_POSITION = "lastPosition";
+    private static final String PREF_SAVE_LAST_POSITION = "saveLastPosition";
+    private ModelFragment mfrag = null;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -64,8 +68,10 @@ public class EmPubLiteActivity extends Activity {
         EventBus.getDefault().register(this);
 
         if(adapter == null){
-            ModelFragment mfrag = (ModelFragment)getFragmentManager().findFragmentByTag(MODEL);
+            mfrag = (ModelFragment)getFragmentManager().findFragmentByTag(MODEL);
             if (mfrag == null){
+                mfrag = new ModelFragment();
+
                 getFragmentManager().beginTransaction()
                         .add(new ModelFragment(), MODEL).commit();
             }
@@ -78,6 +84,10 @@ public class EmPubLiteActivity extends Activity {
     @Override
     protected void onStop() {
         EventBus.getDefault().unregister(this);
+        if(mfrag.getPrefs() != null) {
+            int position = pager.getCurrentItem();
+            mfrag.getPrefs().edit().putInt(PREF_LAST_POSITION, position).apply();
+        }
         super.onStop();
     }
 
@@ -87,6 +97,12 @@ public class EmPubLiteActivity extends Activity {
 
         MaterialTabs tabs = (MaterialTabs)findViewById(R.id.tabs);
         tabs.setViewPager(pager);
+        SharedPreferences prefs = mfrag.getPrefs();
+        if ( prefs != null){
+            if ( prefs.getBoolean(PREF_SAVE_LAST_POSITION, false)){
+                pager.setCurrentItem(prefs.getInt(PREF_LAST_POSITION, 0));
+            }
+        }
     }
 
     @SuppressWarnings("unused")
