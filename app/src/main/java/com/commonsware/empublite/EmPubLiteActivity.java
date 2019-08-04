@@ -50,6 +50,10 @@ public class EmPubLiteActivity extends Activity {
                 startActivity(i);
                 return (true);
 
+            case R.id.settings:
+                startActivity(new Intent(this, Preference.class));
+                return true;
+
         }
         return (super.onOptionsItemSelected(item));
     }

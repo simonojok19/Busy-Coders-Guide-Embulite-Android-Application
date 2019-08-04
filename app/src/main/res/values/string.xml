@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lastposition_title">Save Last Position</string>
+    <string name="lastposition_summery">Save the last  chapter you were viewing and open
+    up on that chapter when re-opening the app</string>
+    <string name="keepscreen_summary">Keep the screen powered on while the reader is in
+    the foreground</string>
+    <string name="keepscreen_title">Keep Screen On</string>
+    <string name="settings">Settings</string>
+</resources>

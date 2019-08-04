@@ -2,79 +2,91 @@
 <instant-run
     abi="x86"
     api-level="21"
-    build-mode="HOT_WARM"
+    build-mode="COLD"
     density="tvdpi"
     format="10"
     plugin-version="3.1.4"
-    timestamp="1564900454537"
+    timestamp="1564907659111"
     token="-790348644133885549"
-    verifier="COMPATIBLE" >
+    verifier="CLASS_ADDED" >
 
     <task
         name="javac"
-        duration="4184" />
+        duration="1759" />
     <task
         name="instant-run-dex"
-        duration="952" />
+        duration="0" />
     <task
         name="instant-run-transform"
-        duration="391" />
+        duration="206" />
     <task
         name="verifier"
-        duration="390" />
+        duration="55" />
 
     <artifact
-        location="/home/dev/AndroidStudioProjects/T5-Layout/EmPubLite/app/build/intermediates/reload-dex/debug/classes.dex"
-        type="RELOAD_DEX" />
+        location="/home/dev/AndroidStudioProjects/T5-Layout/EmPubLite/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/dev/AndroidStudioProjects/T5-Layout/EmPubLite/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/dev/AndroidStudioProjects/T5-Layout/EmPubLite/app/build/intermediates/instant-run-apk/debug/app-debug.apk"
+        type="SPLIT_MAIN" />
 
     <build
         build-mode="FULL"
-        timestamp="1564899877853"
-        verifier="FULL_BUILD_REQUESTED" >
-        <artifact
-            location="/home/dev/AndroidStudioProjects/T5-Layout/EmPubLite/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/dev/AndroidStudioProjects/T5-Layout/EmPubLite/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
-            type="SPLIT" />
+        timestamp="1564907217634"
+        verifier="MANIFEST_FILE_CHANGE" >
         <artifact
             location="/home/dev/AndroidStudioProjects/T5-Layout/EmPubLite/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/dev/AndroidStudioProjects/T5-Layout/EmPubLite/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/dev/AndroidStudioProjects/T5-Layout/EmPubLite/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/dev/AndroidStudioProjects/T5-Layout/EmPubLite/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/dev/AndroidStudioProjects/T5-Layout/EmPubLite/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
             type="SPLIT" />
         <artifact
             location="/home/dev/AndroidStudioProjects/T5-Layout/EmPubLite/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
             type="SPLIT" />
         <artifact
+            location="/home/dev/AndroidStudioProjects/T5-Layout/EmPubLite/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/dev/AndroidStudioProjects/T5-Layout/EmPubLite/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
+            type="SPLIT" />
+        <artifact
             location="/home/dev/AndroidStudioProjects/T5-Layout/EmPubLite/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/dev/AndroidStudioProjects/T5-Layout/EmPubLite/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
             type="SPLIT" />
         <artifact
             location="/home/dev/AndroidStudioProjects/T5-Layout/EmPubLite/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
             type="SPLIT" />
         <artifact
-            location="/home/dev/AndroidStudioProjects/T5-Layout/EmPubLite/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
+            location="/home/dev/AndroidStudioProjects/T5-Layout/EmPubLite/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/dev/AndroidStudioProjects/T5-Layout/EmPubLite/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/dev/AndroidStudioProjects/T5-Layout/EmPubLite/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/dev/AndroidStudioProjects/T5-Layout/EmPubLite/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
             type="SPLIT" />
         <artifact
             location="/home/dev/AndroidStudioProjects/T5-Layout/EmPubLite/app/build/intermediates/instant-run-apk/debug/app-debug.apk"
             type="SPLIT_MAIN" />
     </build>
     <build
-        build-mode="HOT_WARM"
-        timestamp="1564900454537"
-        verifier="COMPATIBLE" >
+        build-mode="COLD"
+        timestamp="1564907659111"
+        verifier="CLASS_ADDED" >
         <artifact
-            location="/home/dev/AndroidStudioProjects/T5-Layout/EmPubLite/app/build/intermediates/reload-dex/debug/classes.dex"
-            type="RELOAD_DEX" />
+            location="/home/dev/AndroidStudioProjects/T5-Layout/EmPubLite/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/dev/AndroidStudioProjects/T5-Layout/EmPubLite/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/dev/AndroidStudioProjects/T5-Layout/EmPubLite/app/build/intermediates/instant-run-apk/debug/app-debug.apk"
+            type="SPLIT_MAIN" />
     </build>
 
 </instant-run>

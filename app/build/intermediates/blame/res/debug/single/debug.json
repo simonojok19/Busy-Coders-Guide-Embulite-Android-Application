@@ -4,16 +4,20 @@
         "source": "/home/dev/AndroidStudioProjects/T5-Layout/EmPubLite/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_info_outline_black_24dp.xml"
     },
     {
+        "merged": "/home/dev/AndroidStudioProjects/T5-Layout/EmPubLite/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_settings_black_24dp.png.flat",
+        "source": "/home/dev/AndroidStudioProjects/T5-Layout/EmPubLite/app/build/generated/res/pngs/debug/drawable-xxhdpi/ic_settings_black_24dp.png"
+    },
+    {
+        "merged": "/home/dev/AndroidStudioProjects/T5-Layout/EmPubLite/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_settings_black_24dp.png.flat",
+        "source": "/home/dev/AndroidStudioProjects/T5-Layout/EmPubLite/app/build/generated/res/pngs/debug/drawable-hdpi/ic_settings_black_24dp.png"
+    },
+    {
         "merged": "/home/dev/AndroidStudioProjects/T5-Layout/EmPubLite/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_info_outline_black_24dp.png.flat",
         "source": "/home/dev/AndroidStudioProjects/T5-Layout/EmPubLite/app/build/generated/res/pngs/debug/drawable-hdpi/ic_info_outline_black_24dp.png"
     },
     {
         "merged": "/home/dev/AndroidStudioProjects/T5-Layout/EmPubLite/app/build/intermediates/res/merged/debug/layout_mt_tab.xml.flat",
         "source": "/home/dev/.gradle/caches/transforms-1/files-1.1/materialtabs-2.0.5.aar/c6d188ff2576fa8240769b0b17746eae/res/layout/mt_tab.xml"
-    },
-    {
-        "merged": "/home/dev/AndroidStudioProjects/T5-Layout/EmPubLite/app/build/intermediates/res/merged/debug/layout_fragment_model.xml.flat",
-        "source": "/home/dev/AndroidStudioProjects/T5-Layout/EmPubLite/app/src/main/res/layout/fragment_model.xml"
     },
     {
         "merged": "/home/dev/AndroidStudioProjects/T5-Layout/EmPubLite/app/build/intermediates/res/merged/debug/layout_main.xml.flat",
@@ -36,16 +40,20 @@
         "source": "/home/dev/AndroidStudioProjects/T5-Layout/EmPubLite/app/build/generated/res/pngs/debug/drawable-xxhdpi/ic_info_outline_black_24dp.png"
     },
     {
+        "merged": "/home/dev/AndroidStudioProjects/T5-Layout/EmPubLite/app/build/intermediates/res/merged/debug/drawable-anydpi-v21_ic_settings_black_24dp.xml.flat",
+        "source": "/home/dev/AndroidStudioProjects/T5-Layout/EmPubLite/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_settings_black_24dp.xml"
+    },
+    {
         "merged": "/home/dev/AndroidStudioProjects/T5-Layout/EmPubLite/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat",
         "source": "/home/dev/AndroidStudioProjects/T5-Layout/EmPubLite/app/src/main/res/mipmap-mdpi/ic_launcher.png"
     },
     {
-        "merged": "/home/dev/AndroidStudioProjects/T5-Layout/EmPubLite/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_help_outline_black_24dp.png.flat",
-        "source": "/home/dev/AndroidStudioProjects/T5-Layout/EmPubLite/app/build/generated/res/pngs/debug/drawable-xxhdpi/ic_help_outline_black_24dp.png"
-    },
-    {
         "merged": "/home/dev/AndroidStudioProjects/T5-Layout/EmPubLite/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
         "source": "/home/dev/AndroidStudioProjects/T5-Layout/EmPubLite/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/dev/AndroidStudioProjects/T5-Layout/EmPubLite/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_help_outline_black_24dp.png.flat",
+        "source": "/home/dev/AndroidStudioProjects/T5-Layout/EmPubLite/app/build/generated/res/pngs/debug/drawable-xxhdpi/ic_help_outline_black_24dp.png"
     },
     {
         "merged": "/home/dev/AndroidStudioProjects/T5-Layout/EmPubLite/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
@@ -54,6 +62,10 @@
     {
         "merged": "/home/dev/AndroidStudioProjects/T5-Layout/EmPubLite/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat",
         "source": "/home/dev/AndroidStudioProjects/T5-Layout/EmPubLite/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/dev/AndroidStudioProjects/T5-Layout/EmPubLite/app/build/intermediates/res/merged/debug/xml_pref_display.xml.flat",
+        "source": "/home/dev/AndroidStudioProjects/T5-Layout/EmPubLite/app/src/main/res/xml/pref_display.xml"
     },
     {
         "merged": "/home/dev/AndroidStudioProjects/T5-Layout/EmPubLite/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",
