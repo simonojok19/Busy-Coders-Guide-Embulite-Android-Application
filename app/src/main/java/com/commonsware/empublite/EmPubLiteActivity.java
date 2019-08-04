@@ -63,6 +63,9 @@ public class EmPubLiteActivity extends Activity {
                 getFragmentManager().beginTransaction()
                         .add(new ModelFragment(), MODEL).commit();
             }
+            else if (mfrag.getBook() != null){
+                setupPager(mfrag.getBook());
+            }
         }
     }
 
