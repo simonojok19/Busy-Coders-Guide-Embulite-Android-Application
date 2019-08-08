@@ -3,13 +3,16 @@ package com.commonsware.empublite;
 import android.app.Activity;
 import android.os.Bundle;
 import android.preference.PreferenceFragment;
+import android.support.annotation.Nullable;
+import android.view.Display;
+
 
 public class Preference extends Activity {
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        if(getFragmentManager().findFragmentById(android.R.id.content) == null){
+        if (getFragmentManager().findFragmentById(android.R.id.content) == null){
             getFragmentManager()
                     .beginTransaction()
                     .add(android.R.id.content, new Display())
@@ -19,7 +22,7 @@ public class Preference extends Activity {
 
     public static class Display extends PreferenceFragment {
         @Override
-        public void onCreate(Bundle savedInstanceState) {
+        public void onCreate(@Nullable Bundle savedInstanceState) {
             super.onCreate(savedInstanceState);
             addPreferencesFromResource(R.xml.pref_display);
         }
