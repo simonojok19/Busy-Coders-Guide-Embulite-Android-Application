@@ -6,7 +6,7 @@ import android.app.Fragment;
 import android.os.Bundle;
 import android.util.Log;
 
-public class NoteActivity extends Activity {
+public class NoteActivity extends Activity implements NoteFragment.Contract {
     public static final String EXTRA_POSITION = "position";
     private final String TAG = getClass().getSimpleName();
 
@@ -24,5 +24,10 @@ public class NoteActivity extends Activity {
             }
         }
         Log.d(TAG, "NoteFragment Created and started");
+    }
+
+    @Override
+    public void closeNotes(){
+        finish();;
     }
 }

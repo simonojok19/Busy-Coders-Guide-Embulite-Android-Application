@@ -23,6 +23,9 @@ import org.greenrobot.eventbus.ThreadMode;
  * A simple {@link Fragment} subclass.
  */
 public class NoteFragment extends Fragment {
+    public interface Contract {
+        void closeNotes();
+    }
     private static final String KEY_POSITION = "position";
     private EditText editor = null;
     private final String TAG = getClass().getSimpleName();
@@ -103,10 +106,14 @@ public class NoteFragment extends Fragment {
     public boolean onOptionsItemSelected(MenuItem item){
         if (item.getItemId() == R.id.delete){
             editor.setText(null);
+            getContract().closeNotes();
             return true;
         }
 
         return super.onOptionsItemSelected(item);
     }
 
+    private Contract getContract(){
+        return (Contract)getActivity();
+    }
 }
