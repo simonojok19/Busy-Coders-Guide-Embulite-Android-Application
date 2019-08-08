@@ -100,6 +100,10 @@ public class EmPubLiteActivity extends Activity {
                 startActivity(new Intent(this, Preferences.class));
 
                 return(true);
+
+            case R.id.notes:
+                startActivity(new Intent(this, NoteActivity.class)
+                .putExtra(NoteActivity.EXTRA_POSITION, pager.getCurrentItem()));
         }
 
         return(super.onOptionsItemSelected(item));
