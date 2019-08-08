@@ -745,40 +745,42 @@ public final class R {
   }
   public static final class drawable {
     public static final int ic_create_white_24dp=0x7f040000;
-    public static final int ic_help_outline_black_24dp=0x7f040001;
-    public static final int ic_info_outline_black_24dp=0x7f040002;
-    public static final int ic_settings_black_24dp=0x7f040003;
+    public static final int ic_delete_white_24dp=0x7f040001;
+    public static final int ic_help_outline_black_24dp=0x7f040002;
+    public static final int ic_info_outline_black_24dp=0x7f040003;
+    public static final int ic_settings_black_24dp=0x7f040004;
   }
   public static final class id {
     public static final int about=0x7f050000;
     public static final int barrier=0x7f050001;
     public static final int bottom=0x7f050002;
     public static final int chains=0x7f050003;
-    public static final int dimensions=0x7f050004;
-    public static final int direct=0x7f050005;
-    public static final int editor=0x7f050006;
-    public static final int end=0x7f050007;
-    public static final int gone=0x7f050008;
-    public static final int groups=0x7f050009;
-    public static final int help=0x7f05000a;
-    public static final int invisible=0x7f05000b;
-    public static final int left=0x7f05000c;
-    public static final int mt_tab_title=0x7f05000d;
-    public static final int none=0x7f05000e;
-    public static final int notes=0x7f05000f;
-    public static final int packed=0x7f050010;
-    public static final int pager=0x7f050011;
-    public static final int parent=0x7f050012;
-    public static final int percent=0x7f050013;
-    public static final int right=0x7f050014;
-    public static final int settings=0x7f050015;
-    public static final int spread=0x7f050016;
-    public static final int spread_inside=0x7f050017;
-    public static final int standard=0x7f050018;
-    public static final int start=0x7f050019;
-    public static final int tabs=0x7f05001a;
-    public static final int top=0x7f05001b;
-    public static final int wrap=0x7f05001c;
+    public static final int delete=0x7f050004;
+    public static final int dimensions=0x7f050005;
+    public static final int direct=0x7f050006;
+    public static final int editor=0x7f050007;
+    public static final int end=0x7f050008;
+    public static final int gone=0x7f050009;
+    public static final int groups=0x7f05000a;
+    public static final int help=0x7f05000b;
+    public static final int invisible=0x7f05000c;
+    public static final int left=0x7f05000d;
+    public static final int mt_tab_title=0x7f05000e;
+    public static final int none=0x7f05000f;
+    public static final int notes=0x7f050010;
+    public static final int packed=0x7f050011;
+    public static final int pager=0x7f050012;
+    public static final int parent=0x7f050013;
+    public static final int percent=0x7f050014;
+    public static final int right=0x7f050015;
+    public static final int settings=0x7f050016;
+    public static final int spread=0x7f050017;
+    public static final int spread_inside=0x7f050018;
+    public static final int standard=0x7f050019;
+    public static final int start=0x7f05001a;
+    public static final int tabs=0x7f05001b;
+    public static final int top=0x7f05001c;
+    public static final int wrap=0x7f05001d;
   }
   public static final class layout {
     public static final int editor=0x7f060000;
@@ -786,7 +788,8 @@ public final class R {
     public static final int mt_tab=0x7f060002;
   }
   public static final class menu {
-    public static final int options=0x7f070000;
+    public static final int notes=0x7f070000;
+    public static final int options=0x7f070001;
   }
   public static final class mipmap {
     public static final int ic_launcher=0x7f080000;
@@ -794,15 +797,16 @@ public final class R {
   public static final class string {
     public static final int about=0x7f090000;
     public static final int app_name=0x7f090001;
-    public static final int hello_blank_fragment=0x7f090002;
-    public static final int help=0x7f090003;
-    public static final int hint=0x7f090004;
-    public static final int keepscreenon_summary=0x7f090005;
-    public static final int keepscreenon_title=0x7f090006;
-    public static final int lastposition_summary=0x7f090007;
-    public static final int lastposition_title=0x7f090008;
-    public static final int notes=0x7f090009;
-    public static final int settings=0x7f09000a;
+    public static final int delete=0x7f090002;
+    public static final int hello_blank_fragment=0x7f090003;
+    public static final int help=0x7f090004;
+    public static final int hint=0x7f090005;
+    public static final int keepscreenon_summary=0x7f090006;
+    public static final int keepscreenon_title=0x7f090007;
+    public static final int lastposition_summary=0x7f090008;
+    public static final int lastposition_title=0x7f090009;
+    public static final int notes=0x7f09000a;
+    public static final int settings=0x7f09000b;
   }
   public static final class style {
     public static final int AppTheme=0x7f0a0000;
