@@ -5,13 +5,12 @@ import android.app.Fragment;
 import android.support.v13.app.FragmentStatePagerAdapter;
 
 
-public class ContentAdapter extends FragmentStatePagerAdapter {
-    private final BookContents contents;
+public class ContentsAdapter extends FragmentStatePagerAdapter {
+   private final BookContents contents;
 
-    public ContentAdapter(Activity ctxt, BookContents contents) {
+    public ContentsAdapter(Activity ctxt, BookContents contents) {
         super(ctxt.getFragmentManager());
         this.contents = contents;
-
     }
 
     @Override
@@ -23,10 +22,5 @@ public class ContentAdapter extends FragmentStatePagerAdapter {
     @Override
     public int getCount() {
         return contents.getChapterCount();
-    }
-
-    @Override
-    public CharSequence getPageTitle(int position){
-        return contents.getChapterTitle(position);
     }
 }

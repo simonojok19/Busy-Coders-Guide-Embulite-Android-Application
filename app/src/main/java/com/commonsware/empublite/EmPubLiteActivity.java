@@ -17,7 +17,7 @@ import io.karim.MaterialTabs;
 
 public class EmPubLiteActivity extends Activity {
     private ViewPager pager;
-    private ContentAdapter adapter;
+    private ContentsAdapter adapter;
     private static final String MODEL = "model";
     private static final String PREF_LAST_POSITION = "lastPosition";
     private static final String PREF_SAVE_LAST_POSITION = "saveLastPosition";
@@ -99,7 +99,7 @@ public class EmPubLiteActivity extends Activity {
     }
 
     private void setupPager(BookContents contents){
-        adapter = new ContentAdapter(this, contents);
+        adapter = new ContentsAdapter(this, contents);
         pager.setAdapter(adapter);
 
         MaterialTabs tabs = (MaterialTabs)findViewById(R.id.tabs);
