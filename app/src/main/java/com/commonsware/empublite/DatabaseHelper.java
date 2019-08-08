@@ -8,6 +8,7 @@ import android.database.sqlite.SQLiteOpenHelper;
 import android.os.Process;
 
 import org.greenrobot.eventbus.EventBus;
+import org.greenrobot.eventbus.Subscribe;
 
 public class DatabaseHelper extends SQLiteOpenHelper {
     private static final String DATABASE_NAME = "empulite.db";
@@ -65,5 +66,25 @@ public class DatabaseHelper extends SQLiteOpenHelper {
 
             c.close();
         }
+    }
+
+    private class UpdateThread extends Thread{
+        private int position = -1;
+        private String prose = null;
+
+        UpdateThread(int position, String prose){
+            super();
+            this.position = position;
+            this.prose = prose;
+        }
+
+        @Override
+        public void run(){
+            Process.setThreadPriority(Process.THREAD_PRIORITY_BACKGROUND);
+            String[] args = {String.valueOf(position), prose};
+            getWritableDatabase().execSQL("INSERT OR REPLACE INTO notes (position, prose) VALUES (?, ?)",
+                    args);
+        }
+
     }
 }
