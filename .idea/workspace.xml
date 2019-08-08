@@ -10,10 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="71a33cea-2304-4d4c-87bf-c7769e92b04b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/commonsware/empublite/SimpleContentActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/commonsware/empublite/SimpleContentActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/commonsware/empublite/SimpleContentFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/commonsware/empublite/SimpleContentFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/commonsware/empublite/ModelFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/commonsware/empublite/ModelFragment.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,6 +33,32 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/commonsware/empublite/EmPubLiteActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="116" column="51" lean-forward="true" selection-start-line="116" selection-start-column="51" selection-end-line="116" selection-end-column="51" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#3925#3926#0" expanded="true" />
+                <element signature="e#3968#3969#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/commonsware/empublite/ModelFragment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="129">
+              <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/commonsware/empublite/SimpleContentFragment.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="703">
@@ -47,11 +70,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/commonsware/empublite/SimpleContentActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+            <state relative-caret-position="38">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -93,11 +116,11 @@
         <option value="$PROJECT_DIR$/app/src/main/res/drawable/ic_create_white_24dp.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/menu/options.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/commonsware/empublite/NoteLoadedEvent.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/commonsware/empublite/ModelFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/commonsware/empublite/NoteFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/commonsware/empublite/DatabaseHelper.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/commonsware/empublite/SimpleContentFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/commonsware/empublite/SimpleContentActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/commonsware/empublite/ModelFragment.java" />
       </list>
     </option>
   </component>
@@ -347,7 +370,7 @@
       <window_info anchor="bottom" id="Logcat" order="1" weight="0.52491695" />
       <window_info anchor="bottom" id="TODO" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.54318935" />
-      <window_info anchor="bottom" id="Terminal" order="4" sideWeight="0.49848485" visible="true" weight="0.17263843" />
+      <window_info anchor="bottom" id="Terminal" order="4" sideWeight="0.49848485" visible="true" weight="0.32736155" />
       <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.50151515" side_tool="true" weight="0.34690553" />
       <window_info anchor="bottom" id="Version Control" order="6" weight="0.32899022" />
       <window_info anchor="bottom" id="Build" order="7" sideWeight="0.49848485" weight="0.4723127" />
@@ -554,16 +577,6 @@
       </provider>
       <provider editor-type-id="android-manifest" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/commonsware/empublite/ModelFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/main.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
@@ -592,18 +605,6 @@
           <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/commonsware/empublite/EmPubLiteActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="632">
-          <caret line="116" column="51" lean-forward="true" selection-start-line="116" selection-start-column="51" selection-end-line="116" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3925#3926#0" expanded="true" />
-            <element signature="e#3968#3969#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -668,8 +669,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/commonsware/empublite/SimpleContentActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+        <state relative-caret-position="38">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/commonsware/empublite/EmPubLiteActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="116" column="51" lean-forward="true" selection-start-line="116" selection-start-column="51" selection-end-line="116" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3925#3926#0" expanded="true" />
+            <element signature="e#3968#3969#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/commonsware/empublite/ModelFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
