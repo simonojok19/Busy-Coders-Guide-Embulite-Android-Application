@@ -44,7 +44,7 @@ public final class R {
         public static final int mt_tab_title = 0x7f05000d;
     }
     public static final class layout {
-        public static final int mt_tab = 0x7f060003;
+        public static final int mt_tab = 0x7f060002;
     }
     public static final class styleable {
         public static final int[] MaterialRippleLayout = { 0x7f010039, 0x7f01003a, 0x7f01003b, 0x7f01003c, 0x7f01003d, 0x7f01003e, 0x7f01003f, 0x7f010040, 0x7f010041, 0x7f010042, 0x7f010043 };

@@ -6,6 +6,7 @@ import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.os.StrictMode;
 import android.support.v4.view.ViewPager;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import org.greenrobot.eventbus.EventBus;
@@ -14,6 +15,7 @@ import org.greenrobot.eventbus.ThreadMode;
 import io.karim.MaterialTabs;
 
 public class EmPubLiteActivity extends Activity {
+    private final String TAG = getClass().getSimpleName();
     private static final String MODEL="model";
     private static final String PREF_LAST_POSITION="lastPosition";
     private static final String PREF_SAVE_LAST_POSITION="saveLastPosition";
@@ -104,6 +106,9 @@ public class EmPubLiteActivity extends Activity {
             case R.id.notes:
                 startActivity(new Intent(this, NoteActivity.class)
                 .putExtra(NoteActivity.EXTRA_POSITION, pager.getCurrentItem()));
+                Log.d(TAG, "Add notes option selected");
+                return (true);
+
         }
 
         return(super.onOptionsItemSelected(item));

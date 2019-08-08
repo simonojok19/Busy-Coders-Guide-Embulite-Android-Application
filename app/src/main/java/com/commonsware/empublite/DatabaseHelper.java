@@ -87,4 +87,8 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         }
 
     }
+
+    void updateNote(int position, String prose){
+        new UpdateThread(position, prose).start();
+    }
 }

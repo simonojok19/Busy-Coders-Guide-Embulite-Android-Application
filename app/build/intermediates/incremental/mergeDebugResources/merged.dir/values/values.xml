@@ -118,7 +118,7 @@
     <attr format="dimension" name="layout_goneMarginTop"/>
     <attr name="layout_optimizationLevel">
         <flag name="none" value="0"/>
-        <flag name="standard" value="7"/> <!-- direct, barriers, chains -->
+        <flag name="standard" value="7"/> 
         <flag name="direct" value="1"/>
         <flag name="barrier" value="2"/>
         <flag name="chains" value="4"/>
@@ -145,8 +145,9 @@
     <string name="keepscreenon_title">Keep Screen On</string>
     <string name="lastposition_summary">Save the last chapter you were viewing and open up on that chapter when re-opening the app</string>
     <string name="lastposition_title">Save Last Position</string>
+    <string name="notes">Add Notes</string>
     <string name="settings">Settings</string>
     <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar">
-    <!-- Customize your theme here. -->
+    
   </style>
 </resources>

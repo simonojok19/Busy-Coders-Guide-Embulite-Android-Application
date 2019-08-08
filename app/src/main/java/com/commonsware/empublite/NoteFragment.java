@@ -60,6 +60,8 @@ public class NoteFragment extends Fragment {
 
     @Override
     public void onStop(){
+        DatabaseHelper.getInstance(getActivity())
+        .updateNote( getPosition(), editor.getText().toString());
 
         EventBus.getDefault().unregister(this);
         super.onStop();
