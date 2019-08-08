@@ -13,7 +13,6 @@ public class SimpleContentFragment extends WebViewFragment {
 
     static SimpleContentFragment newInstance(String file){
         SimpleContentFragment f = new SimpleContentFragment();
-
         Bundle args = new Bundle();
         args.putString(KEY_FILE, file);
         f.setArguments(args);
