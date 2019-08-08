@@ -4,7 +4,6 @@ package com.commonsware.empublite;
 import android.app.Activity;
 import android.content.Context;
 import android.content.SharedPreferences;
-import android.content.res.AssetManager;
 import android.os.Bundle;
 import android.os.Process;
 import android.app.Fragment;

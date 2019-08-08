@@ -16,7 +16,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".Preference"></activity>
+        <activity android:name=".NoteActivity"></activity>
+        <activity android:name=".Preference" />
         <activity android:name=".SimpleContentActivity" />
         <activity android:name=".EmPubLiteActivity">
             <intent-filter>

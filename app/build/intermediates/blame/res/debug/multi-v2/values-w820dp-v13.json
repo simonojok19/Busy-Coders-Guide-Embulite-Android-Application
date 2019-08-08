@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/dev/AndroidStudioProjects/T5-Layout/EmPubLite/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w820dp-v13/values-w820dp-v13.xml",
+            "outputFile": "/home/dev/AndroidStudioProjects/EmPubLite/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w820dp-v13/values-w820dp-v13.xml",
             "map": [
                 {
-                    "source": "/home/dev/AndroidStudioProjects/T5-Layout/EmPubLite/app/src/main/res/values-w820dp/dimens.xml",
+                    "source": "/home/dev/AndroidStudioProjects/EmPubLite/app/src/main/res/values-w820dp/dimens.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "2",
