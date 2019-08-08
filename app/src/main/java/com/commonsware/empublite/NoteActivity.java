@@ -4,9 +4,11 @@ package com.commonsware.empublite;
 import android.app.Activity;
 import android.app.Fragment;
 import android.os.Bundle;
+import android.util.Log;
 
 public class NoteActivity extends Activity {
     public static final String EXTRA_POSITION = "position";
+    private final String TAG = getClass().getSimpleName();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,5 +23,6 @@ public class NoteActivity extends Activity {
                         .commit();
             }
         }
+        Log.d(TAG, "NoteFragment Created and started");
     }
 }

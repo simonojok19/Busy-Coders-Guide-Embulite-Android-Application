@@ -4,6 +4,7 @@ package com.commonsware.empublite;
 import android.app.Fragment;
 import android.os.Bundle;
 import android.text.TextUtils;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -20,6 +21,7 @@ import org.greenrobot.eventbus.ThreadMode;
 public class NoteFragment extends Fragment {
     private static final String KEY_POSITION = "position";
     private EditText editor = null;
+    private final String TAG = getClass().getSimpleName();
 
     @Override
     public void onStart() {
@@ -28,8 +30,10 @@ public class NoteFragment extends Fragment {
 
         if (TextUtils.isEmpty(editor.getText())){
             DatabaseHelper db = DatabaseHelper.getInstance(getActivity());
+            Log.d(TAG, "onStart done loading data");
             db.loadNote(getPosition());
         }
+
     }
 
     public NoteFragment() {
@@ -41,6 +45,7 @@ public class NoteFragment extends Fragment {
         Bundle args = new Bundle();
         args.putInt(KEY_POSITION, position);
         frag.setArguments(args);
+        Log.d("NoteFragment", "calling newInstance()");
         return frag;
     }
 
@@ -50,6 +55,7 @@ public class NoteFragment extends Fragment {
         // Inflate the layout for this fragment
         View result = inflater.inflate(R.layout.editor, container, false);
         editor = (EditText) result.findViewById(R.id.editor);
+        Log.d(TAG, "onCreateView()");
         return result;
     }
 
