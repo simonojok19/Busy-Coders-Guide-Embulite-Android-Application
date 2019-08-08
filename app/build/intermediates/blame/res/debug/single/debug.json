@@ -4,6 +4,10 @@
         "source": "/home/dev/AndroidStudioProjects/EmPubLite/app/build/generated/res/pngs/debug/drawable-xxhdpi/ic_settings_black_24dp.png"
     },
     {
+        "merged": "/home/dev/AndroidStudioProjects/EmPubLite/app/build/intermediates/res/merged/debug/menu_options.xml.flat",
+        "source": "/home/dev/AndroidStudioProjects/EmPubLite/app/src/main/res/menu/options.xml"
+    },
+    {
         "merged": "/home/dev/AndroidStudioProjects/EmPubLite/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
         "source": "/home/dev/AndroidStudioProjects/EmPubLite/app/src/main/res/mipmap-hdpi/ic_launcher.png"
     },
@@ -16,36 +20,28 @@
         "source": "/home/dev/AndroidStudioProjects/EmPubLite/app/build/generated/res/pngs/debug/drawable-xxhdpi/ic_help_outline_black_24dp.png"
     },
     {
-        "merged": "/home/dev/AndroidStudioProjects/EmPubLite/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_create_white_24dp.png.flat",
-        "source": "/home/dev/AndroidStudioProjects/EmPubLite/app/build/generated/res/pngs/debug/drawable-hdpi/ic_create_white_24dp.png"
-    },
-    {
-        "merged": "/home/dev/AndroidStudioProjects/EmPubLite/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_delete_white_24dp.png.flat",
-        "source": "/home/dev/AndroidStudioProjects/EmPubLite/app/build/generated/res/pngs/debug/drawable-hdpi/ic_delete_white_24dp.png"
-    },
-    {
-        "merged": "/home/dev/AndroidStudioProjects/EmPubLite/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_create_white_24dp.png.flat",
-        "source": "/home/dev/AndroidStudioProjects/EmPubLite/app/build/generated/res/pngs/debug/drawable-xxhdpi/ic_create_white_24dp.png"
-    },
-    {
-        "merged": "/home/dev/AndroidStudioProjects/EmPubLite/app/build/intermediates/res/merged/debug/drawable-anydpi-v21_ic_create_white_24dp.xml.flat",
-        "source": "/home/dev/AndroidStudioProjects/EmPubLite/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_create_white_24dp.xml"
-    },
-    {
-        "merged": "/home/dev/AndroidStudioProjects/EmPubLite/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_delete_white_24dp.png.flat",
-        "source": "/home/dev/AndroidStudioProjects/EmPubLite/app/build/generated/res/pngs/debug/drawable-xxhdpi/ic_delete_white_24dp.png"
+        "merged": "/home/dev/AndroidStudioProjects/EmPubLite/app/build/intermediates/res/merged/debug/xml_pref_display.xml.flat",
+        "source": "/home/dev/AndroidStudioProjects/EmPubLite/app/src/main/res/xml/pref_display.xml"
     },
     {
         "merged": "/home/dev/AndroidStudioProjects/EmPubLite/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",
         "source": "/home/dev/AndroidStudioProjects/EmPubLite/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
     },
     {
-        "merged": "/home/dev/AndroidStudioProjects/EmPubLite/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "/home/dev/AndroidStudioProjects/EmPubLite/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+        "merged": "/home/dev/AndroidStudioProjects/EmPubLite/app/build/intermediates/res/merged/debug/layout_editor.xml.flat",
+        "source": "/home/dev/AndroidStudioProjects/EmPubLite/app/src/main/res/layout/editor.xml"
     },
     {
         "merged": "/home/dev/AndroidStudioProjects/EmPubLite/app/build/intermediates/res/merged/debug/drawable-anydpi-v21_ic_settings_black_24dp.xml.flat",
         "source": "/home/dev/AndroidStudioProjects/EmPubLite/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_settings_black_24dp.xml"
+    },
+    {
+        "merged": "/home/dev/AndroidStudioProjects/EmPubLite/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/home/dev/AndroidStudioProjects/EmPubLite/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/dev/AndroidStudioProjects/EmPubLite/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_help_outline_black_24dp.png.flat",
+        "source": "/home/dev/AndroidStudioProjects/EmPubLite/app/build/generated/res/pngs/debug/drawable-hdpi/ic_help_outline_black_24dp.png"
     },
     {
         "merged": "/home/dev/AndroidStudioProjects/EmPubLite/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_info_outline_black_24dp.png.flat",
@@ -54,6 +50,10 @@
     {
         "merged": "/home/dev/AndroidStudioProjects/EmPubLite/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_info_outline_black_24dp.png.flat",
         "source": "/home/dev/AndroidStudioProjects/EmPubLite/app/build/generated/res/pngs/debug/drawable-hdpi/ic_info_outline_black_24dp.png"
+    },
+    {
+        "merged": "/home/dev/AndroidStudioProjects/EmPubLite/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/home/dev/AndroidStudioProjects/EmPubLite/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
     },
     {
         "merged": "/home/dev/AndroidStudioProjects/EmPubLite/app/build/intermediates/res/merged/debug/layout_main.xml.flat",
@@ -70,30 +70,6 @@
     {
         "merged": "/home/dev/AndroidStudioProjects/EmPubLite/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat",
         "source": "/home/dev/AndroidStudioProjects/EmPubLite/app/src/main/res/mipmap-mdpi/ic_launcher.png"
-    },
-    {
-        "merged": "/home/dev/AndroidStudioProjects/EmPubLite/app/build/intermediates/res/merged/debug/menu_options.xml.flat",
-        "source": "/home/dev/AndroidStudioProjects/EmPubLite/app/src/main/res/menu/options.xml"
-    },
-    {
-        "merged": "/home/dev/AndroidStudioProjects/EmPubLite/app/build/intermediates/res/merged/debug/xml_pref_display.xml.flat",
-        "source": "/home/dev/AndroidStudioProjects/EmPubLite/app/src/main/res/xml/pref_display.xml"
-    },
-    {
-        "merged": "/home/dev/AndroidStudioProjects/EmPubLite/app/build/intermediates/res/merged/debug/layout_editor.xml.flat",
-        "source": "/home/dev/AndroidStudioProjects/EmPubLite/app/src/main/res/layout/editor.xml"
-    },
-    {
-        "merged": "/home/dev/AndroidStudioProjects/EmPubLite/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_help_outline_black_24dp.png.flat",
-        "source": "/home/dev/AndroidStudioProjects/EmPubLite/app/build/generated/res/pngs/debug/drawable-hdpi/ic_help_outline_black_24dp.png"
-    },
-    {
-        "merged": "/home/dev/AndroidStudioProjects/EmPubLite/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "/home/dev/AndroidStudioProjects/EmPubLite/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
-    },
-    {
-        "merged": "/home/dev/AndroidStudioProjects/EmPubLite/app/build/intermediates/res/merged/debug/drawable-anydpi-v21_ic_delete_white_24dp.xml.flat",
-        "source": "/home/dev/AndroidStudioProjects/EmPubLite/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_delete_white_24dp.xml"
     },
     {
         "merged": "/home/dev/AndroidStudioProjects/EmPubLite/app/build/intermediates/res/merged/debug/drawable-anydpi-v21_ic_info_outline_black_24dp.xml.flat",

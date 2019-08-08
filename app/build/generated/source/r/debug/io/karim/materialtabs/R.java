@@ -8,46 +8,46 @@ package io.karim.materialtabs;
 
 public final class R {
     public static final class attr {
-        public static final int mrlRippleAlpha = 0x7f010039;
-        public static final int mrlRippleColor = 0x7f01003a;
-        public static final int mrlRippleDelayClick = 0x7f01003b;
-        public static final int mrlRippleDiameter = 0x7f01003c;
-        public static final int mrlRippleDuration = 0x7f01003d;
-        public static final int mrlRippleFadeDuration = 0x7f01003e;
-        public static final int mrlRippleHighlightColor = 0x7f01003f;
-        public static final int mrlRippleInAdapter = 0x7f010040;
-        public static final int mrlRippleOverlay = 0x7f010041;
-        public static final int mrlRipplePersistent = 0x7f010042;
-        public static final int mrlRippleRoundedCorners = 0x7f010043;
-        public static final int mtIndicatorColor = 0x7f010044;
-        public static final int mtIndicatorHeight = 0x7f010045;
-        public static final int mtMrlRippleAlpha = 0x7f010046;
-        public static final int mtMrlRippleColor = 0x7f010047;
-        public static final int mtMrlRippleDelayClick = 0x7f010048;
-        public static final int mtMrlRippleDiameter = 0x7f010049;
-        public static final int mtMrlRippleDuration = 0x7f01004a;
-        public static final int mtMrlRippleFadeDuration = 0x7f01004b;
-        public static final int mtMrlRippleHighlightColor = 0x7f01004c;
-        public static final int mtMrlRippleInAdapter = 0x7f01004d;
-        public static final int mtMrlRippleOverlay = 0x7f01004e;
-        public static final int mtMrlRipplePersistent = 0x7f01004f;
-        public static final int mtMrlRippleRoundedCorners = 0x7f010050;
-        public static final int mtPaddingMiddle = 0x7f010051;
-        public static final int mtSameWeightTabs = 0x7f010052;
-        public static final int mtTabPaddingLeftRight = 0x7f010053;
-        public static final int mtTextAllCaps = 0x7f010054;
-        public static final int mtTextColorSelected = 0x7f010055;
-        public static final int mtUnderlineColor = 0x7f010056;
-        public static final int mtUnderlineHeight = 0x7f010057;
+        public static final int mrlRippleAlpha = 0x7f010000;
+        public static final int mrlRippleColor = 0x7f010001;
+        public static final int mrlRippleDelayClick = 0x7f010002;
+        public static final int mrlRippleDiameter = 0x7f010003;
+        public static final int mrlRippleDuration = 0x7f010004;
+        public static final int mrlRippleFadeDuration = 0x7f010005;
+        public static final int mrlRippleHighlightColor = 0x7f010006;
+        public static final int mrlRippleInAdapter = 0x7f010007;
+        public static final int mrlRippleOverlay = 0x7f010008;
+        public static final int mrlRipplePersistent = 0x7f010009;
+        public static final int mrlRippleRoundedCorners = 0x7f01000a;
+        public static final int mtIndicatorColor = 0x7f01000b;
+        public static final int mtIndicatorHeight = 0x7f01000c;
+        public static final int mtMrlRippleAlpha = 0x7f01000d;
+        public static final int mtMrlRippleColor = 0x7f01000e;
+        public static final int mtMrlRippleDelayClick = 0x7f01000f;
+        public static final int mtMrlRippleDiameter = 0x7f010010;
+        public static final int mtMrlRippleDuration = 0x7f010011;
+        public static final int mtMrlRippleFadeDuration = 0x7f010012;
+        public static final int mtMrlRippleHighlightColor = 0x7f010013;
+        public static final int mtMrlRippleInAdapter = 0x7f010014;
+        public static final int mtMrlRippleOverlay = 0x7f010015;
+        public static final int mtMrlRipplePersistent = 0x7f010016;
+        public static final int mtMrlRippleRoundedCorners = 0x7f010017;
+        public static final int mtPaddingMiddle = 0x7f010018;
+        public static final int mtSameWeightTabs = 0x7f010019;
+        public static final int mtTabPaddingLeftRight = 0x7f01001a;
+        public static final int mtTextAllCaps = 0x7f01001b;
+        public static final int mtTextColorSelected = 0x7f01001c;
+        public static final int mtUnderlineColor = 0x7f01001d;
+        public static final int mtUnderlineHeight = 0x7f01001e;
     }
     public static final class id {
-        public static final int mt_tab_title = 0x7f05000e;
+        public static final int mt_tab_title = 0x7f050003;
     }
     public static final class layout {
         public static final int mt_tab = 0x7f060002;
     }
     public static final class styleable {
-        public static final int[] MaterialRippleLayout = { 0x7f010039, 0x7f01003a, 0x7f01003b, 0x7f01003c, 0x7f01003d, 0x7f01003e, 0x7f01003f, 0x7f010040, 0x7f010041, 0x7f010042, 0x7f010043 };
+        public static final int[] MaterialRippleLayout = { 0x7f010000, 0x7f010001, 0x7f010002, 0x7f010003, 0x7f010004, 0x7f010005, 0x7f010006, 0x7f010007, 0x7f010008, 0x7f010009, 0x7f01000a };
         public static final int MaterialRippleLayout_mrlRippleAlpha = 0;
         public static final int MaterialRippleLayout_mrlRippleColor = 1;
         public static final int MaterialRippleLayout_mrlRippleDelayClick = 2;
@@ -59,7 +59,7 @@ public final class R {
         public static final int MaterialRippleLayout_mrlRippleOverlay = 8;
         public static final int MaterialRippleLayout_mrlRipplePersistent = 9;
         public static final int MaterialRippleLayout_mrlRippleRoundedCorners = 10;
-        public static final int[] MaterialTabs = { 0x7f010044, 0x7f010045, 0x7f010046, 0x7f010047, 0x7f010048, 0x7f010049, 0x7f01004a, 0x7f01004b, 0x7f01004c, 0x7f01004d, 0x7f01004e, 0x7f01004f, 0x7f010050, 0x7f010051, 0x7f010052, 0x7f010053, 0x7f010054, 0x7f010055, 0x7f010056, 0x7f010057 };
+        public static final int[] MaterialTabs = { 0x7f01000b, 0x7f01000c, 0x7f01000d, 0x7f01000e, 0x7f01000f, 0x7f010010, 0x7f010011, 0x7f010012, 0x7f010013, 0x7f010014, 0x7f010015, 0x7f010016, 0x7f010017, 0x7f010018, 0x7f010019, 0x7f01001a, 0x7f01001b, 0x7f01001c, 0x7f01001d, 0x7f01001e };
         public static final int MaterialTabs_mtIndicatorColor = 0;
         public static final int MaterialTabs_mtIndicatorHeight = 1;
         public static final int MaterialTabs_mtMrlRippleAlpha = 2;

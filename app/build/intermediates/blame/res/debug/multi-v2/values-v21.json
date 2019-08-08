@@ -7,19 +7,19 @@
                     "source": "/home/dev/AndroidStudioProjects/EmPubLite/app/src/main/res/values-v21/styles.xml",
                     "from": {
                         "startLines": "3",
-                        "startColumns": "4",
-                        "startOffsets": "54",
-                        "endLines": "8",
-                        "endColumns": "12",
-                        "endOffsets": "399"
+                        "startColumns": "2",
+                        "startOffsets": "50",
+                        "endLines": "7",
+                        "endColumns": "10",
+                        "endOffsets": "337"
                     },
                     "to": {
                         "startLines": "2",
                         "startColumns": "4",
                         "startOffsets": "55",
-                        "endLines": "7",
-                        "endColumns": "12",
-                        "endOffsets": "400"
+                        "endLines": "6",
+                        "endColumns": "10",
+                        "endOffsets": "342"
                     }
                 }
             ]

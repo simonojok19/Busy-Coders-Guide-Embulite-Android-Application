@@ -1,4 +1,4 @@
-#Sun Aug 04 17:24:26 EAT 2019
-base.0=/home/dev/AndroidStudioProjects/T5-Layout/EmPubLite/app/build/intermediates/transforms/dexMerger/debug/10
+#Thu Aug 08 15:09:11 EAT 2019
+base.0=/home/dev/AndroidStudioProjects/EmPubLite/app/build/intermediates/transforms/dexMerger/debug/10
 path.0=classes.dex
 renamed.0=classes.dex
