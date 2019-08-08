@@ -3,10 +3,15 @@ package com.commonsware.empublite;
 
 import android.app.Fragment;
 import android.os.Bundle;
+import android.text.TextUtils;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.EditText;
+
+import org.greenrobot.eventbus.EventBus;
+import org.greenrobot.eventbus.Subscribe;
+import org.greenrobot.eventbus.ThreadMode;
 
 
 /**
@@ -16,6 +21,16 @@ public class NoteFragment extends Fragment {
     private static final String KEY_POSITION = "position";
     private EditText editor = null;
 
+    @Override
+    public void onStart() {
+        super.onStart();
+        EventBus.getDefault().register(this);
+
+        if (TextUtils.isEmpty(editor.getText())){
+            DatabaseHelper db = DatabaseHelper.getInstance(getActivity());
+            db.loadNote(getPosition());
+        }
+    }
 
     public NoteFragment() {
         // Required empty public constructor
@@ -40,6 +55,22 @@ public class NoteFragment extends Fragment {
 
     private int getPosition(){
         return getArguments().getInt(KEY_POSITION, -1);
+    }
+
+
+    @Override
+    public void onStop(){
+
+        EventBus.getDefault().unregister(this);
+        super.onStop();
+    }
+
+    @SuppressWarnings("unused")
+    @Subscribe(threadMode = ThreadMode.MAIN)
+    public void onNoteLoaded(NoteLoadedEvent event){
+        if (event.getPosition() == getPosition()){
+            editor.setText(event.getProse());
+        }
     }
 
 }

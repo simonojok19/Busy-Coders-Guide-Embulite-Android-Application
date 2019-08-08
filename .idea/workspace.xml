@@ -7,7 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ee7ed225-9b2f-4aa1-8cfa-9f35e978734a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/commonsware/empublite/DatabaseHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/commonsware/empublite/DatabaseHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/commonsware/empublite/NoteFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/commonsware/empublite/NoteFragment.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,15 +29,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/commonsware/empublite/DatabaseHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
+            <state relative-caret-position="-114">
               <caret line="38" column="5" lean-forward="true" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1165#1166#0" expanded="true" />
                 <element signature="e#1196#1197#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/commonsware/empublite/NoteFragment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="71" column="39" selection-start-line="71" selection-start-column="39" selection-end-line="71" selection-end-column="39" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1706#1733#1" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -68,13 +81,13 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/app/build.gradle" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/commonsware/empublite/NoteFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/commonsware/empublite/NoteActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/drawable/ic_create_white_24dp.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/menu/options.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/commonsware/empublite/EmPubLiteActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/commonsware/empublite/NoteLoadedEvent.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/commonsware/empublite/DatabaseHelper.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/commonsware/empublite/NoteFragment.java" />
       </list>
     </option>
   </component>
@@ -329,18 +342,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/commonsware/empublite/NoteFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-513">
-          <caret line="3" column="4" selection-start-line="3" selection-end-line="3" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1135#1136#0" expanded="true" />
-            <element signature="e#1171#1172#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/commonsware/empublite/BookLoadedEvent.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
@@ -386,12 +387,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/commonsware/empublite/DatabaseHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
+        <state relative-caret-position="-114">
           <caret line="38" column="5" lean-forward="true" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1165#1166#0" expanded="true" />
             <element signature="e#1196#1197#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/commonsware/empublite/NoteFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="71" column="39" selection-start-line="71" selection-start-column="39" selection-end-line="71" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1706#1733#1" expanded="true" />
           </folding>
         </state>
       </provider>
