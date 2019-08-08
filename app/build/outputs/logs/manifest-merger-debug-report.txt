@@ -1,9 +1,10 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/dev/AndroidStudioProjects/EmPubLite/app/src/main/AndroidManifest.xml:2:1-30:12
-INJECTED from /home/dev/AndroidStudioProjects/EmPubLite/app/src/main/AndroidManifest.xml:2:1-30:12
-INJECTED from /home/dev/AndroidStudioProjects/EmPubLite/app/src/main/AndroidManifest.xml:2:1-30:12
-INJECTED from /home/dev/AndroidStudioProjects/EmPubLite/app/src/main/AndroidManifest.xml:2:1-30:12
+ADDED from /home/dev/AndroidStudioProjects/EmPubLite/app/src/main/AndroidManifest.xml:2:1-31:12
+INJECTED from /home/dev/AndroidStudioProjects/EmPubLite/app/src/main/AndroidManifest.xml:2:1-31:12
+INJECTED from /home/dev/AndroidStudioProjects/EmPubLite/app/src/main/AndroidManifest.xml:2:1-31:12
+INJECTED from /home/dev/AndroidStudioProjects/EmPubLite/app/src/main/AndroidManifest.xml:2:1-31:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/dev/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/ed9ab3f542dde41a96f4a7dd8b61e534/AndroidManifest.xml:2:1-11:12
 MERGED from [com.commonsware.cwac:security:0.8.0] /home/dev/.gradle/caches/transforms-1/files-1.1/security-0.8.0.aar/db43987ad6fb9e3ef3d5f491e90a197a/AndroidManifest.xml:2:1-13:12
 MERGED from [com.android.support:support-v13:25.3.0] /home/dev/.gradle/caches/transforms-1/files-1.1/support-v13-25.3.0.aar/70dd17af2b53ae2b5942d9b851025db3/AndroidManifest.xml:17:1-31:12
 MERGED from [io.karim:materialtabs:2.0.5] /home/dev/.gradle/caches/transforms-1/files-1.1/materialtabs-2.0.5.aar/c6d188ff2576fa8240769b0b17746eae/AndroidManifest.xml:2:1-10:12
@@ -13,37 +14,39 @@ MERGED from [com.android.support:support-media-compat:25.3.0] /home/dev/.gradle/
 MERGED from [com.android.support:support-core-utils:25.3.0] /home/dev/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.0.aar/9f0235fb6f557a6851ce36572b07131b/AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-core-ui:25.3.0] /home/dev/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.0.aar/2ee18eebf436454de5c41a17c439a17d/AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-compat:25.3.0] /home/dev/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.0.aar/b9ce9e26eb08d2603c5ea6a3590aa14c/AndroidManifest.xml:17:1-31:12
-INJECTED from /home/dev/AndroidStudioProjects/EmPubLite/app/src/main/AndroidManifest.xml:2:1-30:12
-INJECTED from /home/dev/AndroidStudioProjects/EmPubLite/app/src/main/AndroidManifest.xml:2:1-30:12
-INJECTED from /home/dev/AndroidStudioProjects/EmPubLite/app/src/main/AndroidManifest.xml:2:1-30:12
+INJECTED from /home/dev/AndroidStudioProjects/EmPubLite/app/src/main/AndroidManifest.xml:2:1-31:12
+INJECTED from /home/dev/AndroidStudioProjects/EmPubLite/app/src/main/AndroidManifest.xml:2:1-31:12
+INJECTED from /home/dev/AndroidStudioProjects/EmPubLite/app/src/main/AndroidManifest.xml:2:1-31:12
 	package
-		ADDED from /home/dev/AndroidStudioProjects/EmPubLite/app/src/main/AndroidManifest.xml:2:11-46
+		ADDED from /home/dev/AndroidStudioProjects/EmPubLite/app/src/main/AndroidManifest.xml:4:5-40
 		INJECTED from /home/dev/AndroidStudioProjects/EmPubLite/app/src/main/AndroidManifest.xml
 		INJECTED from /home/dev/AndroidStudioProjects/EmPubLite/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /home/dev/AndroidStudioProjects/EmPubLite/app/src/main/AndroidManifest.xml
-		ADDED from /home/dev/AndroidStudioProjects/EmPubLite/app/src/main/AndroidManifest.xml:2:1-30:12
+		ADDED from /home/dev/AndroidStudioProjects/EmPubLite/app/src/main/AndroidManifest.xml:2:1-31:12
 		INJECTED from /home/dev/AndroidStudioProjects/EmPubLite/app/src/main/AndroidManifest.xml
 	xmlns:tools
-		ADDED from /home/dev/AndroidStudioProjects/EmPubLite/app/src/main/AndroidManifest.xml:4:3-49
+		ADDED from /home/dev/AndroidStudioProjects/EmPubLite/app/src/main/AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from /home/dev/AndroidStudioProjects/EmPubLite/app/src/main/AndroidManifest.xml
-		ADDED from /home/dev/AndroidStudioProjects/EmPubLite/app/src/main/AndroidManifest.xml:2:1-30:12
+		ADDED from /home/dev/AndroidStudioProjects/EmPubLite/app/src/main/AndroidManifest.xml:2:1-31:12
 		INJECTED from /home/dev/AndroidStudioProjects/EmPubLite/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /home/dev/AndroidStudioProjects/EmPubLite/app/src/main/AndroidManifest.xml:3:3-61
+		ADDED from /home/dev/AndroidStudioProjects/EmPubLite/app/src/main/AndroidManifest.xml:2:11-69
 supports-screens
-ADDED from /home/dev/AndroidStudioProjects/EmPubLite/app/src/main/AndroidManifest.xml:6:3-10:36
+ADDED from /home/dev/AndroidStudioProjects/EmPubLite/app/src/main/AndroidManifest.xml:6:5-10:40
 	android:largeScreens
-		ADDED from /home/dev/AndroidStudioProjects/EmPubLite/app/src/main/AndroidManifest.xml:7:5-32
+		ADDED from /home/dev/AndroidStudioProjects/EmPubLite/app/src/main/AndroidManifest.xml:7:9-36
 	android:smallScreens
-		ADDED from /home/dev/AndroidStudioProjects/EmPubLite/app/src/main/AndroidManifest.xml:9:5-33
+		ADDED from /home/dev/AndroidStudioProjects/EmPubLite/app/src/main/AndroidManifest.xml:9:9-37
 	android:normalScreens
-		ADDED from /home/dev/AndroidStudioProjects/EmPubLite/app/src/main/AndroidManifest.xml:8:5-33
+		ADDED from /home/dev/AndroidStudioProjects/EmPubLite/app/src/main/AndroidManifest.xml:8:9-37
 	android:xlargeScreens
-		ADDED from /home/dev/AndroidStudioProjects/EmPubLite/app/src/main/AndroidManifest.xml:10:5-33
+		ADDED from /home/dev/AndroidStudioProjects/EmPubLite/app/src/main/AndroidManifest.xml:10:9-37
 application
-ADDED from /home/dev/AndroidStudioProjects/EmPubLite/app/src/main/AndroidManifest.xml:12:3-28:17
+ADDED from /home/dev/AndroidStudioProjects/EmPubLite/app/src/main/AndroidManifest.xml:12:5-29:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/dev/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/ed9ab3f542dde41a96f4a7dd8b61e534/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/dev/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/ed9ab3f542dde41a96f4a7dd8b61e534/AndroidManifest.xml:9:5-20
 MERGED from [com.commonsware.cwac:security:0.8.0] /home/dev/.gradle/caches/transforms-1/files-1.1/security-0.8.0.aar/db43987ad6fb9e3ef3d5f491e90a197a/AndroidManifest.xml:11:5-20
 MERGED from [com.commonsware.cwac:security:0.8.0] /home/dev/.gradle/caches/transforms-1/files-1.1/security-0.8.0.aar/db43987ad6fb9e3ef3d5f491e90a197a/AndroidManifest.xml:11:5-20
 MERGED from [com.android.support:support-v13:25.3.0] /home/dev/.gradle/caches/transforms-1/files-1.1/support-v13-25.3.0.aar/70dd17af2b53ae2b5942d9b851025db3/AndroidManifest.xml:29:5-20
@@ -61,43 +64,49 @@ MERGED from [com.android.support:support-core-ui:25.3.0] /home/dev/.gradle/cache
 MERGED from [com.android.support:support-compat:25.3.0] /home/dev/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.0.aar/b9ce9e26eb08d2603c5ea6a3590aa14c/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-compat:25.3.0] /home/dev/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.0.aar/b9ce9e26eb08d2603c5ea6a3590aa14c/AndroidManifest.xml:29:5-20
 	android:supportsRtl
-		ADDED from /home/dev/AndroidStudioProjects/EmPubLite/app/src/main/AndroidManifest.xml:16:5-31
+		ADDED from /home/dev/AndroidStudioProjects/EmPubLite/app/src/main/AndroidManifest.xml:16:9-35
 	android:label
-		ADDED from /home/dev/AndroidStudioProjects/EmPubLite/app/src/main/AndroidManifest.xml:15:5-37
+		ADDED from /home/dev/AndroidStudioProjects/EmPubLite/app/src/main/AndroidManifest.xml:15:9-41
 	tools:ignore
-		ADDED from /home/dev/AndroidStudioProjects/EmPubLite/app/src/main/AndroidManifest.xml:18:5-44
+		ADDED from /home/dev/AndroidStudioProjects/EmPubLite/app/src/main/AndroidManifest.xml:18:9-48
 	android:icon
-		ADDED from /home/dev/AndroidStudioProjects/EmPubLite/app/src/main/AndroidManifest.xml:14:5-39
+		ADDED from /home/dev/AndroidStudioProjects/EmPubLite/app/src/main/AndroidManifest.xml:14:9-43
 	android:allowBackup
-		ADDED from /home/dev/AndroidStudioProjects/EmPubLite/app/src/main/AndroidManifest.xml:13:5-32
+		ADDED from /home/dev/AndroidStudioProjects/EmPubLite/app/src/main/AndroidManifest.xml:13:9-36
 	android:theme
-		ADDED from /home/dev/AndroidStudioProjects/EmPubLite/app/src/main/AndroidManifest.xml:17:5-36
+		ADDED from /home/dev/AndroidStudioProjects/EmPubLite/app/src/main/AndroidManifest.xml:17:9-40
+activity#com.commonsware.empublite.NoteActivity
+ADDED from /home/dev/AndroidStudioProjects/EmPubLite/app/src/main/AndroidManifest.xml:19:9-59
+	android:name
+		ADDED from /home/dev/AndroidStudioProjects/EmPubLite/app/src/main/AndroidManifest.xml:19:19-47
 activity#com.commonsware.empublite.EmPubLiteActivity
-ADDED from /home/dev/AndroidStudioProjects/EmPubLite/app/src/main/AndroidManifest.xml:19:5-25:16
+ADDED from /home/dev/AndroidStudioProjects/EmPubLite/app/src/main/AndroidManifest.xml:20:9-26:20
 	android:name
-		ADDED from /home/dev/AndroidStudioProjects/EmPubLite/app/src/main/AndroidManifest.xml:19:15-48
+		ADDED from /home/dev/AndroidStudioProjects/EmPubLite/app/src/main/AndroidManifest.xml:20:19-52
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /home/dev/AndroidStudioProjects/EmPubLite/app/src/main/AndroidManifest.xml:20:7-24:23
+ADDED from /home/dev/AndroidStudioProjects/EmPubLite/app/src/main/AndroidManifest.xml:21:13-25:29
 action#android.intent.action.MAIN
-ADDED from /home/dev/AndroidStudioProjects/EmPubLite/app/src/main/AndroidManifest.xml:21:9-61
+ADDED from /home/dev/AndroidStudioProjects/EmPubLite/app/src/main/AndroidManifest.xml:22:17-69
 	android:name
-		ADDED from /home/dev/AndroidStudioProjects/EmPubLite/app/src/main/AndroidManifest.xml:21:17-58
+		ADDED from /home/dev/AndroidStudioProjects/EmPubLite/app/src/main/AndroidManifest.xml:22:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/dev/AndroidStudioProjects/EmPubLite/app/src/main/AndroidManifest.xml:23:9-69
+ADDED from /home/dev/AndroidStudioProjects/EmPubLite/app/src/main/AndroidManifest.xml:24:17-77
 	android:name
-		ADDED from /home/dev/AndroidStudioProjects/EmPubLite/app/src/main/AndroidManifest.xml:23:19-66
+		ADDED from /home/dev/AndroidStudioProjects/EmPubLite/app/src/main/AndroidManifest.xml:24:27-74
 activity#com.commonsware.empublite.SimpleContentActivity
-ADDED from /home/dev/AndroidStudioProjects/EmPubLite/app/src/main/AndroidManifest.xml:26:5-55
+ADDED from /home/dev/AndroidStudioProjects/EmPubLite/app/src/main/AndroidManifest.xml:27:9-59
 	android:name
-		ADDED from /home/dev/AndroidStudioProjects/EmPubLite/app/src/main/AndroidManifest.xml:26:15-52
+		ADDED from /home/dev/AndroidStudioProjects/EmPubLite/app/src/main/AndroidManifest.xml:27:19-56
 activity#com.commonsware.empublite.Preferences
-ADDED from /home/dev/AndroidStudioProjects/EmPubLite/app/src/main/AndroidManifest.xml:27:5-54
+ADDED from /home/dev/AndroidStudioProjects/EmPubLite/app/src/main/AndroidManifest.xml:28:9-49
 	android:name
-		ADDED from /home/dev/AndroidStudioProjects/EmPubLite/app/src/main/AndroidManifest.xml:27:15-42
+		ADDED from /home/dev/AndroidStudioProjects/EmPubLite/app/src/main/AndroidManifest.xml:28:19-46
 uses-sdk
 INJECTED from /home/dev/AndroidStudioProjects/EmPubLite/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /home/dev/AndroidStudioProjects/EmPubLite/app/src/main/AndroidManifest.xml
 INJECTED from /home/dev/AndroidStudioProjects/EmPubLite/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/dev/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/ed9ab3f542dde41a96f4a7dd8b61e534/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/dev/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/ed9ab3f542dde41a96f4a7dd8b61e534/AndroidManifest.xml:5:5-7:41
 MERGED from [com.commonsware.cwac:security:0.8.0] /home/dev/.gradle/caches/transforms-1/files-1.1/security-0.8.0.aar/db43987ad6fb9e3ef3d5f491e90a197a/AndroidManifest.xml:7:5-9:41
 MERGED from [com.commonsware.cwac:security:0.8.0] /home/dev/.gradle/caches/transforms-1/files-1.1/security-0.8.0.aar/db43987ad6fb9e3ef3d5f491e90a197a/AndroidManifest.xml:7:5-9:41
 MERGED from [com.android.support:support-v13:25.3.0] /home/dev/.gradle/caches/transforms-1/files-1.1/support-v13-25.3.0.aar/70dd17af2b53ae2b5942d9b851025db3/AndroidManifest.xml:21:5-23:55
