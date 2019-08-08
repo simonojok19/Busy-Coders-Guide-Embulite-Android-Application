@@ -3,9 +3,13 @@ package com.commonsware.empublite;
 
 import android.app.Fragment;
 import android.os.Bundle;
+import android.support.annotation.Nullable;
 import android.text.TextUtils;
 import android.util.Log;
 import android.view.LayoutInflater;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.EditText;
@@ -22,6 +26,7 @@ public class NoteFragment extends Fragment {
     private static final String KEY_POSITION = "position";
     private EditText editor = null;
     private final String TAG = getClass().getSimpleName();
+
 
     @Override
     public void onStart() {
@@ -79,6 +84,29 @@ public class NoteFragment extends Fragment {
         if (event.getPosition() == getPosition()){
             editor.setText(event.getProse());
         }
+    }
+
+    @Override
+    public void onCreate(@Nullable Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setHasOptionsMenu(true);
+    }
+
+
+    @Override
+    public void onCreateOptionsMenu(Menu menu, MenuInflater inflater){
+        super.onCreateOptionsMenu(menu, inflater);
+        inflater.inflate(R.menu.notes, menu);
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item){
+        if (item.getItemId() == R.id.delete){
+            editor.setText(null);
+            return true;
+        }
+
+        return super.onOptionsItemSelected(item);
     }
 
 }
