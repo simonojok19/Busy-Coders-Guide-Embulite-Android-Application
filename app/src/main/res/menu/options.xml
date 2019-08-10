@@ -24,4 +24,10 @@
     android:title="@string/about">
   </item>
 
+  <item
+    android:id="@+id/update"
+    android:icon="@drawable/ic_refresh_white_24dp"
+    android:showAsAction="ifRoom|withText"
+    android:title="@string/download_update"/>
+
 </menu>
