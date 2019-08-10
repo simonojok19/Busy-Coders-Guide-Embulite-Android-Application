@@ -109,6 +109,9 @@ public class EmPubLiteActivity extends Activity {
                 Log.d(TAG, "Add notes option selected");
                 return (true);
 
+            case R.id.update:
+                startService(new Intent(this, DownloadCheckService.class));
+
         }
 
         return(super.onOptionsItemSelected(item));
