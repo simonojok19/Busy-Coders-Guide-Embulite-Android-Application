@@ -774,13 +774,14 @@ public final class R {
     public static final int percent=0x7f050014;
     public static final int right=0x7f050015;
     public static final int settings=0x7f050016;
-    public static final int spread=0x7f050017;
-    public static final int spread_inside=0x7f050018;
-    public static final int standard=0x7f050019;
-    public static final int start=0x7f05001a;
-    public static final int tabs=0x7f05001b;
-    public static final int top=0x7f05001c;
-    public static final int wrap=0x7f05001d;
+    public static final int share=0x7f050017;
+    public static final int spread=0x7f050018;
+    public static final int spread_inside=0x7f050019;
+    public static final int standard=0x7f05001a;
+    public static final int start=0x7f05001b;
+    public static final int tabs=0x7f05001c;
+    public static final int top=0x7f05001d;
+    public static final int wrap=0x7f05001e;
   }
   public static final class layout {
     public static final int editor=0x7f060000;
@@ -807,6 +808,7 @@ public final class R {
     public static final int lastposition_title=0x7f090009;
     public static final int notes=0x7f09000a;
     public static final int settings=0x7f09000b;
+    public static final int share=0x7f09000c;
   }
   public static final class style {
     public static final int AppTheme=0x7f0a0000;

@@ -145,7 +145,7 @@ public class NoteFragment extends Fragment implements TextWatcher {
     }
 
     @Override
-    public void afterTextChanged(Editable editable) {
-        shareIntent.putExtra(Intent.EXTRA_TEXT, share.toString());
+    public void afterTextChanged(Editable s) {
+        shareIntent.putExtra(Intent.EXTRA_TEXT, s.toString());
     }
 }

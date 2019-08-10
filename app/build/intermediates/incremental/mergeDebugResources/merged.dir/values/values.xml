@@ -148,6 +148,7 @@
     <string name="lastposition_title">Save Last Position</string>
     <string name="notes">Add Notes</string>
     <string name="settings">Settings</string>
+    <string name="share">Share</string>
     <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar">
     
   </style>
