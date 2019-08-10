@@ -16,7 +16,11 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".NoteActivity"></activity>
+        <service
+            android:name=".DownloadCheckService"
+            android:exported="false"></service>
+
+        <activity android:name=".NoteActivity" />
         <activity android:name=".EmPubLiteActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
